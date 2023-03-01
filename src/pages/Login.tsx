@@ -5,12 +5,12 @@ interface IndexProps { }
 const Login: React.FC<IndexProps> = (props) => {
   return (
     <>
-      <div className='container-fluid d-flex justify-content-around w-100 h-100 bg-gradient' >
+      <div aria-hidden="true" className='container-fluid d-flex justify-content-around w-100 h-100 bg-gradient' >
         <div>
           <img className='sm-6 auto' src='https://picsum.photos/id/480/900' alt="teste" />
         </div>
-        <form className='my-auto '>
-          <div className="form-group gap-3">
+        <form className='my-auto'>
+          <div className="form-group">
             <label htmlFor="exampleInputEmail1">Email</label>
             <input type="email" className="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Email" />
           </div>
