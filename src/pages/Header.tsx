@@ -12,7 +12,7 @@ const Header = () => {
           <Col xs={8}>
             <form className="d-flex" role="search">
               <input className="form-control me-2" type="search" placeholder="Qual livro você está procurando?" aria-label="Search" />
-              <button className="btn btn-outline-primary" type="submit">Buscar</button>
+              <button className="btn btn-outline-primary text-white-50 bg-dark" type="submit">Buscar</button>
             </form>
           </Col>
           <Col>
