@@ -7,6 +7,7 @@ import Cadastro from './pages/Cadastro';
 import DetalheLivro from './pages/DetalheLivro';
 import Header from './pages/Header';
 import Login from './pages/Login';
+import ResumoCompra from './pages/ResumoCompra';
 import ShoppingChart from './pages/ShoppingChart';
 
 const App = () =>
@@ -19,6 +20,7 @@ const App = () =>
         <Route path="/signup" element={<Cadastro />} />
         <Route path="/shopping-chart" element={<ShoppingChart />} />
         <Route path="/book" element={<DetalheLivro />} />
+        <Route path="/checkout" element={<ResumoCompra />} />
       </Routes>
     </Router>
   </>
